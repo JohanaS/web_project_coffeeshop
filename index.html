@@ -112,7 +112,7 @@
         </section>
         <section class="reservation" id="reservation">
           <h2 class="reservation__title">Reserva una mesa</h2>
-          <form class="reservation__form">
+          <form class="form reservation__form">
             <fieldset class="form__fieldset">
               <label class="form__label"> Nombre </label>
               <input
@@ -131,12 +131,7 @@
               />
 
               <label class="form__label"> Fecha y hora </label>
-              <input
-                type="datetime-local"
-                class="form__input"
-                placeholder="dd/mm/aaaa"
-                required
-              />
+              <input type="datetime-local" class="form__input" required />
 
               <label class="form__label"> Tu correo electrónico </label>
               <input
@@ -146,9 +141,7 @@
                 required
               />
             </fieldset>
-            <button type="radio" class="form__button" required>
-              Reserva una mesa
-            </button>
+            <button type="submit" class="form__button">Reserva una mesa</button>
 
             <label class="form__label"
               ><input type="checkbox" class="form__checkbox" required /> Acepto
