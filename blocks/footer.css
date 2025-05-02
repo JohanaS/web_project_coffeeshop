@@ -28,6 +28,9 @@
   left: -44px;
   z-index: 1;
 }
+.footer__social {
+  text-align: right;
+}
 .footer__social-heading {
   font-family: "Inter";
   font-weight: bold;
@@ -37,7 +40,6 @@
 }
 .footer__list {
   list-style-type: none;
-  text-align: right;
   column-gap: 20px;
 }
 .footer__list-item {
