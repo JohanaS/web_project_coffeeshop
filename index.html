@@ -14,7 +14,6 @@
     />
     <title>Coffeshop</title>
     <link rel="shotcut icon" href="favicon.ico" />
-    <link rel="stylesheet" href="./vendor/normalize.css" />
     <link rel="stylesheet" href="./pages/index.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -37,7 +36,7 @@
             <li class="nav__link">
               <a href="#reservation"></a>Reserva una mesa
             </li>
-            <li class="nav__link"><a href="#"></a>Contáctanos</li>
+            <li class="nav__link"><a href="#footer"></a>Contáctanos</li>
           </ul>
         </nav>
         <h1 class="header__title">
@@ -143,14 +142,39 @@
             </fieldset>
             <button type="submit" class="form__button">Reserva una mesa</button>
 
-            <label class="form__label"
-              ><input type="checkbox" class="form__checkbox" required /> Acepto
-              los términos y condiciones</label
+            <label class="form__label form__checkbox"
+              ><input type="checkbox" required /> Acepto los términos y
+              condiciones</label
             >
           </form>
         </section>
       </main>
-      <footer class="footer"></footer>
+      <footer class="footer" id="footer">
+        <div class="footer__content">
+          <img src="./images/logo_coffeeshop_light.svg" class="footer__logo" />
+          <ul class="footer__list">
+            <li class="footer__social-heading">Redes sociales</li>
+
+            <li class="footer__list-item footer__social-link">
+              <img
+                src="./images/facebook_white.svg"
+                class="footer__social-icon"
+              />Facebook
+            </li>
+            <li class="footer__list-item footer__social-link">
+              <img
+                src="./images/instagram_white.svg"
+                class="footer__social-icon"
+              />Instagram
+            </li>
+          </ul>
+        </div>
+        <div class="footer__circle"></div>
+        <div class="footer__copyright">
+          <img src="./images/check.svg" />
+          <p>2025 Johana Meza</p>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
